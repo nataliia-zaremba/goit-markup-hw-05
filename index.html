@@ -369,34 +369,29 @@
         </ul>
         </div>
         <div class="subscribe-box">
-            <div class="email-box">
                 <p class="subscribe-text">Subscribe</p>
                 <form class="email-form">
                     <label>
                         <input type="email" class="form-input" name="email" placeholder="E-mail"/>
                     </label>
-                </form>
-            </div>
-           <div class="subscribe-button">
+                 
 <button class="form-button" type="submit">Subscribe
-    <svg class="icon-send" width="24" height="20">
+    <svg class="icon-send" width="24" height="24">
         <use href="./images/icons.svg#icon-send"></use>
     </svg>
 </button>
-
+</form>
            </div>
-
         </div>
-        </div>
+        
     </footer>
    <div class="backdrop is-open">
-    <div class="modal">
-        <div class="close-wrap">
+    <div class="modal">   
     <button type="button" class="modal-close"><svg class="button-close" width="8" height="8"> <use href="./images/icons.svg#icon-close">
     </use>
 </svg> 
 </button>
-</div>
+
 <p class="modal-title">Leave your contacts and we will call you back</p>
   <form class="modal-form">
     <div class="modal-field">
@@ -437,17 +432,17 @@
         Comment</label>
         <textarea name="user-comment" id="user-comment" class="model-textarea" placeholder="Text input"></textarea>
 </div>
-<div>
+<div class="checkbox-wrape">
 <input type="checkbox"
-name="policy"
-id="policy"
+name="user-privacy"
+id="user-privacy"
 class="modal-check visually-hidden"
 value="true"/>
-<label for="policy" class="modal-check-text"><span class="modal-check-item">
+<label for="user-privacy" class="modal-check-text"><span class="modal-check-item">
     <svg class="check-icon" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg>
 </span>
 I accept the terms and conditions of the 
-<a href="">Privacy Policy</a>
+<a href="" class="privacy-policy">Privacy Policy</a>
 </label>
 </div>
 
